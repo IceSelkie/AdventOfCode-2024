@@ -1,0 +1,48 @@
+eval(fs.readFileSync("/Users/iceselkie/bin/utils2.js")+"");
+i = await (() => new Promise((resolve, reject) => require('https').get({ hostname: 'adventofcode.com', path: '/2024/day/1/input', headers: { 'User-Agent': '', 'Connection': 'keep-alive', 'Cookie': `session=${process.env.SESSION}`, 'Priority': 'u=0, i', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache' } }, res => { let data = ''; res.on('data', chunk => data += chunk); res.on('end', () => resolve(data.trim())); }).on('error', reject)))();
+i = await (() => new Promise((resolve, reject) => require('https').get({ hostname: 'adventofcode.com', path: '/2024/day/2/input', headers: { 'User-Agent': '', 'Connection': 'keep-alive', 'Cookie': `session=${process.env.SESSION}`, 'Priority': 'u=0, i', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache' } }, res => { let data = ''; res.on('data', chunk => data += chunk); res.on('end', () => resolve(data.trim())); }).on('error', reject)))();
+i.s`\n`
+i = await (() => new Promise((resolve, reject) => require('https').get({ hostname: 'adventofcode.com', path: '/2024/day/2/input', headers: { 'User-Agent': '', 'Connection': 'keep-alive', 'Cookie': `session=${process.env.SESSION}`, 'Priority': 'u=0, i', 'Pragma': 'no-cache', 'Cache-Control': 'no-cache' } }, res => { let data = ''; res.on('data', chunk => data += chunk); res.on('end', () => resolve(data.trim())); }).on('error', reject)))();
+i.s`\n`.num()
+i.s`\n`.map(a=>a.nums())
+i.s`\n`.map(a=>a.nums()))
+i.s`\n`.map(a=>a.nums())
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1]))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).filter(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).filter(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true)).count()
+i2 = "7 6 4 2 1\n1 2 7 8 9\n9 7 6 2 1\n1 3 2 4 5\n8 6 4 4 1\n1 3 6 7 9"
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true)).count()
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1]))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10)
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true))
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true))
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10)
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>[a,a.reduce((c,n,i,arr)=>c&&arr[0]*n>=0&&Math.abs(arr[0])<=3,true)])
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>=0)&&(Math.abs(arr[0])<=3)),true)])
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>=0)&&(Math.abs(n)<=3)),true)])
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)])
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).map(a=>a[1]).count()
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).slice(0,10).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).map(a=>a[1]).count()
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).map(a=>a[1]).count()
+part 1
+i2.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1])
+i2.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)]))//.map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1])
+i2.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)])).filter(a=>a.map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]))
+i2.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)])).filter(a=>a.map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1]))
+i2.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)])).filter(a=>a.map(a=>bipart(a).map(a=>a[0]-a[1]))//.map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1]))
+)
+i2.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)])).filter(a=>a.map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1]))
+s2 = i2.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)])) // .filter(a=>a.map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1]))
+s = i.s`\n`.map(a=>a.nums()).map(a=>range(a.length).map(i=>[...a.slice(0,i),...a.slice(i+1)])) // .filter(a=>a.map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c+((arr[0]*n<=0)||(Math.abs(n)>3))),0)]).map(a=>a[1]))
+s2.map(a=>a.map(b=>bipart(b).map(a=>a[0]-a[1])))
+s2.map(a=>a.map(b=>bipart(b).map(a=>a[0]-a[1])).map(a=>[a,a.reduce]))
+i.s`\n`.map(a=>a.nums()).map(a=>bipart(a).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).map(a=>a[1]).count()
+s2.map(a=>a.map(b=>bipart(b).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]))
+s2.map(a=>a.map(b=>bipart(b).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).find(a=>a[1]))
+s2.map(a=>a.map(b=>bipart(b).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).find(a=>a[1])).count()
+s.map(a=>a.map(b=>bipart(b).map(a=>a[0]-a[1])).map(a=>[a,a.reduce(((c,n,i,arr)=>c&&(arr[0]*n>0)&&(Math.abs(n)<=3)),true)]).find(a=>a[1])).count()
+part 2
