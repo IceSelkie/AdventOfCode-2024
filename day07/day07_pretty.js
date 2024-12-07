@@ -1,4 +1,4 @@
-// Today's puzzle was an excersize in remembering which "a" "b" and "c" that i have in scope.
+// Today's puzzle was an exercise in remembering which "a" "b" and "c" that i have in scope.
 
 fs = require("fs");
 eval(fs.readFileSync("/Users/iceselkie/bin/utils2.js")+"");
